@@ -81,4 +81,23 @@ span{
 .right{
     width: 25%;
 }
+.last{
+    border-radius: 5px;
+}
 
+ @media (max-width:1020px){
+    .inner{
+        margin: 3px;
+    }
+ }
+@media (max-width : 720px){
+    .first-segment{
+        height: 100px;
+    }
+    .second{
+        height: 200px;
+    }
+    .inner{
+        margin: 2px;
+    }
+}
